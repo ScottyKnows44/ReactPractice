@@ -14,9 +14,7 @@ function Users(){
     return (
         <div>
             {users.map( user => 
-                <li>
-                    {user}
-                </li>
+                <li>{user}</li>
             )}
         </div>
     )
