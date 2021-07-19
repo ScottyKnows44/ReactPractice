@@ -1,4 +1,22 @@
-.App {
+body {
+  background-color: #2E8B57;
+  color: #9DC183;
+  font-size: x-large;
+}
+
+button{
+  background: none;
+	color: inherit;
+	border: #9DC183 solid;
+  border-radius: 25px;
+  height: 50px;
+  width: 100px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+h1{
   text-align: center;
 }
 
@@ -13,5 +31,43 @@
   width: 300px;
   height: 60px;
   margin: 10px;
-  font-size: 25px;
+}
+
+.form textarea{
+  width: 600px;
+  max-width: 600px;
+  min-width: 600px;
+  height: 200px;
+  margin: 10px;
+}
+
+.listFont{
+  padding-top: 4px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#listOfMovies{
+  margin-top: 2rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#listTitle{
+  text-align: center;
+}
+.nameAndReviewContainer{
+  margin-top: 1rem;
+  border: #9DC183 solid;
+  border-radius: 25px;
+  padding-left: 10px;
+  
+}
+.nameAndReviewContainer div{
+    display: flex;    
+}
+
+.textFont{
+  color: #9DC183;
+  font-family: 'Oswald', sans-serif;
 }

@@ -1,17 +1,11 @@
 import './App.css';
+import Form from './components/form';
 
 function App() {
   return (
     <div className="App">
-      <h1>CRUD APPLICATION</h1>
-      <div className="form">
-        <label> Movie Name:</label>
-        <input type="text" name="movieName" />
-        <label>Movie Review:</label>
-        <input type="text" name="review" />
-
-        <button>Submit</button>
-      </div>
+      <Form />
+      <div>https://www.youtube.com/watch?v=HVdMhKN2ng4&ab_channel=Headway</div>
     </div>
   );
 }
